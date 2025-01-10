@@ -1,0 +1,1 @@
+Our explanatory and conceptual guides are written to provide a better understanding of how MultilingualPress works and how it can be used and configured. They enable you to expand your knowledge and become better at managing your multilingual network with MultilingualPress.
