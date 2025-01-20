@@ -88,5 +88,3 @@ If **Enable Hreflang** is checked:
 ## 6. Summary
 
 **External Sites** in MultilingualPress offer a flexible way to integrate an **outside domain or website** into your multilingual workflow. By assigning a locale, enabling hreflang, and optionally setting up automatic redirection, you give users a consistent, language-aware experience—whether the content resides in your multisite network or beyond it.
-
-For **step-by-step setup** details, see related **How-to Guides** or consult the official [MultilingualPress documentation](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#).
