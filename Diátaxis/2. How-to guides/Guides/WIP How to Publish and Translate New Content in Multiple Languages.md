@@ -1,3 +1,5 @@
+# How to Publish New Content and Manage Translations with MultilingualPress
+
 **Purpose**: This guide walks authors through publishing new content on a primary language site and then creating and managing translations across connected language sites using MultilingualPress.
 
 **Prerequisites**:
@@ -63,6 +65,13 @@ Translating taxonomies ensures consistency across language sites.
 
 - **Check Front-End**: Visit each language version of the post to ensure that translations, categories, and tags display correctly.
 - **Use Language Switcher**: Navigate between language versions using your site’s language switcher to verify proper linking.
+
+---
+
+## Troubleshooting Common Issues *(New Section)*
+
+### **Problem: **
+- **Solution**: 
 
 ---
 
