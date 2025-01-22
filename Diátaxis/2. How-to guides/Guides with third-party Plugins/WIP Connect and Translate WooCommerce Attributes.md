@@ -1,8 +1,10 @@
+# How to Create, Connect, and Translate WooCommerce Attributes in a Multilingual Environment with MultilingualPress
+
 **Purpose**: Learn how to create, connect, and translate WooCommerce Attributes (and their Terms) across multiple language sites in a WordPress multisite environment running MultilingualPress.
 
 ---
 
-### 1. Create a WooCommerce Attribute on Your Main Site
+## 1. Create a WooCommerce Attribute on Your Main Site
 
 1. **Open the Product Attributes Screen**
     - In your **main site** dashboard, go to **Products → Attributes**.
@@ -14,11 +16,11 @@
 
 ![Create WooCommerce Attributes and Terms](https://multilingualpress.org/wp-content/uploads/sites/12/2020/11/Create-WooCommerce-Attributes-and-Terms.png)
 
-> **Tip**: Each Term you create here corresponds to a color option in your store’s product variations.
+**Tip**: Each Term you create here corresponds to a color option in your store’s product variations.
 
 ---
 
-### 2. Duplicate the Attribute on a Second Language Site
+## 2. Duplicate the Attribute on a Second Language Site
 
 Now set up the **same** attribute (same slug) on your second language site. In this example, we’ll use a Spanish site.
 
@@ -32,11 +34,11 @@ Now set up the **same** attribute (same slug) on your second language site. In t
 
 ![Spanish Attribute](https://multilingualpress.org/wp-content/uploads/sites/12/2020/11/WooCommerce-Attribute-in-Spanish-site.png)
 
-> **Important**: The slug must be identical (e.g., “color”) across all language sites for MultilingualPress to link these attributes correctly.
+**Important**: The slug must be identical (e.g., “color”) across all language sites for MultilingualPress to link these attributes correctly.
 
 ---
 
-### 3. Confirm the Connection via the Same Slug
+## 3. Confirm the Connection via the Same Slug
 
 When attributes across sites share the **same slug** (e.g., “color”), MultilingualPress recognizes them as translations of each other.
 
@@ -47,7 +49,7 @@ When attributes across sites share the **same slug** (e.g., “color”), Multil
 
 ---
 
-### 4. Translate Individual Terms with the Translation Metabox
+## 4. Translate Individual Terms with the Translation Metabox
 
 1. **Edit a Term in One Language**
     - For instance, edit “Blue” on the English site.
@@ -63,7 +65,27 @@ Once linked, your WooCommerce “color” attribute across the English and Spani
 
 ---
 
-### Summary & Next Steps
+## 5. Troubleshooting Common Issues
+
+### **Problem: Terms Are Not Showing Up on Translated Sites**
+- **Solution**: Make sure the terms are properly configured on each language site. If a term is missing from one language, it won’t appear in the translation metabox.
+
+---
+
+## 6. Advanced Use Cases
+
+- **Custom Attributes**: For custom product attributes (e.g., custom product sizes), ensure that these attributes also have matching slugs across language sites. While MultilingualPress works well with standard WooCommerce attributes, custom attributes may require manual linking and syncing of terms.
+
+---
+
+## 7. Multisite Considerations
+
+- **Multisite-Specific Challenges**: When working with a WordPress multisite, ensure that all language sites are properly connected in your network. A common issue is that attributes created on one site might not be visible on others if the multisite setup is not properly configured.
+- **Recommendation**: For best results, always ensure that your multisite network is updated to the latest version of WordPress and MultilingualPress to avoid compatibility issues.
+
+---
+
+## Summary & Next Steps
 
 By ensuring both sites share an **identical attribute slug**, MultilingualPress automatically knows to look for matching Terms under the same attribute. You can now easily translate WooCommerce attributes and their Terms, providing a seamless multilingual shopping experience for your customers.
 
@@ -73,3 +95,4 @@ By ensuring both sites share an **identical attribute slug**, MultilingualPress 
     - [Translate Other Taxonomies (Categories, Tags) Across Sites](#)
 
 With these steps, you can confidently manage and translate WooCommerce attributes in a Multisite setup—ensuring consistent product variations in all languages.
+

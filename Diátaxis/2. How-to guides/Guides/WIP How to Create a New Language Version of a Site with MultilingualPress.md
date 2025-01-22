@@ -1,3 +1,5 @@
+# How to Add a New Website to a WordPress Multisite Network with MultilingualPress
+
 **Purpose**: Learn how to add a new website to your WordPress Multisite network, set its language, and configure MultilingualPress settings to integrate it into your multilingual ecosystem.
 
 ---
@@ -23,7 +25,6 @@ On the **Add New Site** page, fill in the standard multisite information:
 - **Admin Email**: Specify the administrator's email.
 
     ![General settings for new site](https://multilingualpress.org/wp-content/uploads/sites/12/2018/07/add-new-site-to-wordpress-multisite.png)
-    
 
 These settings are part of WordPress Multisite setup and not specific to MultilingualPress.
 
@@ -37,16 +38,16 @@ Below the general settings, you will find a section for MultilingualPress-specif
     Select the primary content language for the new site (e.g., French). This setting affects hreflang URLs and language-related features.
     
 - **Relationships**:  
-    Link this new site with other language sites in the network to manage translations collectively.
+    Link this new site with other language sites in the network to manage translations collectively. **(Important: Ensure relationships are set properly to prevent translation mismatches across sites.)**
     
 - **Based on Site**:  
     Choose an existing site as a template. This copies content, settings, and configurations to save time.
     
 - **Copy Attachments**:  
-    Optionally copy media attachments from the source site to the new site.
+    Optionally copy media attachments from the source site to the new site. **(This ensures media consistency across languages, reducing the need to re-upload content for each site.)**
     
 - **Connect Content**:  
-    If checked, all posts/pages from the source site are connected as translations on the new site.
+    If checked, all posts/pages from the source site are connected as translations on the new site. **(Use this option to ensure seamless content migration between sites.)**
     
 - **Connect Comments**:  
     Synchronizes comments between the source post and its translations.
@@ -65,9 +66,8 @@ Below the general settings, you will find a section for MultilingualPress-specif
     
 - **Redirect**:  
     If the Redirect module is active, configure automatic language redirection for this site and select if it should serve as a fallback.
-    
+
     ![Settings - Add a new site](https://multilingualpress.org/wp-content/uploads/sites/12/2018/07/settings-add-a-new-site.png)
-    
 
 These options allow you to tailor how the new site integrates with your multilingual network.
 
@@ -80,6 +80,16 @@ After configuring both the general and MultilingualPress-specific settings:
 1. Click the button to **Add Site** or **Create Site**.
 2. WordPress will create the new website, applying the settings you provided.
 3. MultilingualPress links the new site with existing language sites, sets up relationships, and configures options like content connection and redirection as specified.
+
+---
+
+## Troubleshooting Common Issues *(New Section)*
+
+### **Problem: Site Language Not Correctly Applied**
+- **Solution**: Ensure that the correct primary language is selected in the MultilingualPress settings. Also, verify that language relationships are properly established across the network.
+
+### **Problem: Content Not Connecting Across Sites**
+- **Solution**: Make sure the **Connect Content** option is selected in the MultilingualPress settings to ensure proper content linking between the source site and the new site.
 
 ---
 

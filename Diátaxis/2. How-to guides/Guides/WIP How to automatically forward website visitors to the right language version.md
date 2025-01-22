@@ -1,10 +1,15 @@
+# How to Automatically Forward Website Visitors to the Right Language Version with MultilingualPress
+
 **Purpose**: Set up automatic redirection so visitors are taken to the language version of your site that matches their preferences, using the latest MultilingualPress redirection options.
 
 ---
 
 ## Overview
 
-MultilingualPress can detect a visitor's preferred language (via browser settings or geolocation) and automatically redirect them to the appropriate language site. Recent updates provide additional flexibility in how redirection is executed and detected. This guide will walk you through activating and configuring these features.
+**Redirection** is an essential feature for multilingual websites, as it ensures that visitors are automatically taken to the language version of the site that matches their preferences (either through browser settings or geolocation). MultilingualPress makes it easy to set up automatic redirection, improving user experience by reducing the effort needed to switch languages manually. Recent updates provide additional flexibility in how redirection is executed and detected. This guide will walk you through activating and configuring these features.
+
+> **Change/Additions**:  
+> - **Added context** to explain the importance of redirection for multilingual websites, particularly for new users unfamiliar with its benefits.
 
 ---
 
@@ -22,15 +27,14 @@ _Note_: The **Redirect** tab in global settings and additional redirection optio
 After activating the Redirect module, go to the **Redirect** tab in MultilingualPress global settings. Here you can adjust new redirection options:
 
 - **Redirect Fallback**:
-    
     - Select a fallback network site URL where users are redirected if their preferred language doesn't match any available language sites.
-- **Redirect Execution**:
     
+- **Redirect Execution**:
     - Choose the programming method for redirection:
         - **Server-side redirect (PHP)**: Redirects visitors on the server before the page loads.
         - **Client-side redirect (JavaScript)**: Redirects visitors in the browser after the page loads.
+        
 - **Redirect Type**:
-    
     - Choose the detection method and behavior for redirection:
         - **Browser language (Header)**: Detects the browser's language preferences.
         - **Geolocation (IP Address)**: Uses IP-based geolocation (via geoplugin or similar) to detect visitor location.
@@ -66,16 +70,25 @@ MultilingualPress uses visitor language settings for redirection. Check your bro
 
 ---
 
+## **Troubleshooting Common Issues** 
+
+### **Problem: Redirection Not Working**
+- **Solution**: Ensure that the **Redirect** module is activated and that language relationships between sites are correctly set up. Double-check the configuration of the redirect method (server-side or client-side).
+
+### **Problem: Fallback Is Not Redirecting Correctly**
+- **Solution**: Confirm that the fallback site URL is correctly set in the MultilingualPress settings and that the visitor’s preferred language is not mistakenly redirected to an unsupported language.
+
+---
+
 ## Additional Considerations
 
-- **Testing Redirection**:
-    
+- **Testing Redirection**: 
     - After setting up, simulate visitors with various browser languages or IP addresses to verify correct redirection behavior.
-- **Fallback Behavior**:
-    
+
+- **Fallback Behavior**: 
     - Ensure a fallback site is configured, so visitors with unsupported languages are directed appropriately.
-- **Content Linking**:
-    
+
+- **Content Linking**: 
     - Proper linking of content across sites is crucial for smooth redirection. Verify that translations exist and are correctly connected.
 
 ---
