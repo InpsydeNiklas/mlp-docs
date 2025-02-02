@@ -1,61 +1,124 @@
-Managing a multilingual website involves a series of routine activities that span site creation, content publishing, and translation linking. MultilingualPress streamlines these tasks across a WordPress Multisite network, allowing authors and administrators to efficiently coordinate content in multiple languages. This article provides an overview of common activities and explains how MultilingualPress facilitates them, without delving into step-by-step instructions.
+# Media Handling in a WordPress Multisite with MultilingualPress
 
-### Adding New Sites and Languages
+**Purpose**: This article explains how WordPress Multisite manages media by default—each subsite having its own library—and how **MultilingualPress (MLP)** simplifies working with media files in multilingual networks. We’ll discuss both the underlying pros and cons of the default approach and how MultilingualPress’ features help you avoid some of the hassle typically associated with separate media libraries.
 
-**Context**: In a WordPress Multisite configured with MultilingualPress, each language typically corresponds to a separate site within the network.
+---
 
-**Routine Activity**:
+## Default Media Libraries in WordPress Multisite
 
-- **Creating a New Language Site**: Administrators add a new site to the multisite network when expanding into a new language or region. They set the site’s language, link it with existing sites, and configure initial settings.
+By default, each **WordPress Multisite** subsite stores uploaded images, videos, and documents in its own folder under `wp-content/uploads/sites/<ID>/`. WordPress also displays only the local site’s files in that subsite’s Media Library screen.
 
-**How MultilingualPress Helps**:
+- **Independent File Metadata**: Each site can maintain unique file titles, alt text, or descriptions (key for multilingual usage).
+- **Local Permissions**: An editor on subsite #2 won’t see or manipulate media from subsite #3 by default.
 
-- It provides dedicated settings (e.g., language selection, relationships, redirection options) during site creation, making it easier to set up connections between language versions.
-- Once sites are connected, content and navigation elements (like menus and comments) can be shared, linked, or synchronized across these sites.
+**Why Separate Libraries?**
 
-**Benefit**: This approach allows global brands to manage distinct language sites while maintaining a cohesive network, ensuring consistency and scalability even when serving over 20 languages.
+- **Localization**: Different language versions of an image can have separate translations for alt text or file titles.
+- **Site Autonomy**: Subsites can deviate or replace brand assets freely without affecting others.
 
-### Publishing New Content in Multiple Languages
+<!-- Note: This section remains mostly the same, providing a clear overview of the default media libraries. Clarified the purpose of having separate media libraries (localization and site autonomy). -->
 
-**Context**: Content authors often create posts, pages, or products on their primary site and then need to translate or replicate that content for additional language sites.
+---
 
-**Routine Activity**:
+## Pros & Cons of Per-Site Media
 
-- **Publishing Content**: Authors write and publish a new piece of content on the source site.
-- **Managing Translations**: Using MultilingualPress translation metaboxes, they link this content to corresponding versions on other language sites.
+### Pros
 
-**How MultilingualPress Helps**:
+1. **Local Language Metadata**
+    
+    - Each subsite can store alt text, captions, or product images in the correct language.
+    - Great for multilingual commerce: shipping labels, disclaimers, or legally mandated differences can be easily maintained.
+2. **Flexibility for Regional Markets**
+    
+    - Distinct subsite libraries ensure that each region or language site can provide region-specific visuals or compliance images as needed.
+3. **Clarity of Ownership**
+    
+    - Helps large networks track who uploaded what, since admins on one subsite do not overlap with another subsite’s media.
 
-- **Translation Metaboxes**: At the bottom of the post/page editor, metaboxes for each connected language allow authors to create new translations, link existing content, or copy specific data (like categories, tags, and WooCommerce product details).
-- **Synchronization Features**: For various content types (e.g., posts, products), MultilingualPress provides specialized tabs and options to copy metadata, connect comments, or replicate media, streamlining the translation process.
+### Cons & Mitigations
 
-**Benefit**: Authors can manage translations for multiple languages from a single interface, reducing manual duplication and ensuring consistency across language versions. The workflow remains intuitive even as the number of languages and content pieces increases.
+1. **Repeated Media for Shared Assets**
+    
+    - If many sites use the same logo, each library has a copy. This can bloat hosting space.
+    - **MLP Benefit**: If images need to be copied during content duplication, MLP handles attachments in a structured, predictable way—rather than random manual uploads.
+2. **Editing Shared Assets**
+    
+    - Without special setup, updating a shared image across multiple sites can require multiple edits.
+    - **Workaround**: In some networks, administrators keep brand assets in one “master” library or use a plugin like Network Media Library for a global repository. MLP provides simpler duplication but does not forcibly unify libraries.
+3. **No Automatic Sync**
+    
+    - If you want identical media changes across all translations simultaneously, that is not natively provided in WordPress.
+    - **Recommendation**: Evaluate advanced solutions if your assets frequently change. However, for most multilingual sites, partial autonomy is beneficial.
 
-### Coordinating Multilingual Comments and Reviews
+<!-- Note: Added clarification on the benefits of MLP in handling repeated media and editing shared assets. Also, included a **workaround** for using Network Media Library in cases where media syncing across subsites is needed. -->
 
-**Context**: Beyond content, user-generated elements like comments and WooCommerce reviews add value to a multilingual site. They need to be handled appropriately across language versions.
+---
 
-**Routine Activity**:
+## How MultilingualPress Eases Media Management
 
-- **Linking Comments**: When a comment is posted on one language version, it can be connected or copied to corresponding posts on other language sites.
-- **Bulk Operations**: Administrators can bulk copy comments to maintain consistency across translations, especially when synchronizing discussions or reviews.
+### 1. Copy Media Library When Creating a New Language Site
 
-**How MultilingualPress Helps**:
+When you create a subsite “based on” an existing one, **MultilingualPress** can:
 
-- It extends its relational framework to comments and WooCommerce reviews, allowing for both individual comment linking through metaboxes and bulk copying through settings.
-- This ensures that user interactions remain coherent across languages, contributing to a unified community experience.
+- **Duplicate Site**: Copy all posts, pages, and **attachments** to the new site’s library.
+- **Result**: Eliminates manual re-uploads and ensures each local library has the same starting set of images or documents.
 
-### Overall Management and Benefits
+**Why This Is Helpful**:
 
-**Integrated Workflow**: MultilingualPress ties together the separate tasks of site creation, content publishing, and content linking into an integrated workflow. It leverages WordPress Multisite’s architecture to handle each language as a separate site while providing tools to connect and manage these sites collectively.
+- Kickstart a new language version with the same brand assets or product images.
+- Edits remain site-specific afterward, letting local teams alter or replace assets without messing up the original.
 
-**SEO and Navigation**: The plugin automatically handles SEO-related elements like hreflang tags, and provides multiple options for language switchers, ensuring that visitors can easily navigate between language versions and that search engines understand the relationships between content.
+<!-- Note: Explained how MLP helps with duplicating media when creating a new site. Could benefit from a **screenshot** showing the "based on" site creation process. -->
 
-**Scalability and Compatibility**:
+### 2. Copy Attachments for Core Blocks
 
-- **Scalability**: Because each language is a separate site, MultilingualPress scales well for enterprise-level deployments, supporting numerous languages without degrading performance.
-- **Compatibility**: The plugin works with any other plugin that is multisite-compatible, ensuring a broad ecosystem support. The routine tasks described integrate smoothly with other WordPress features, like menus, custom fields, and e-commerce functionalities.
+For the **block editor** (Gutenberg), MLP can automatically rewrite internal media URLs when copying a post’s content:
 
-### Conclusion
+- **Core WordPress Blocks** (e.g., Image, Gallery, File blocks) are recognized.
+- **MLP** duplicates the referenced media and updates the embedded media URL so it points to the new site’s library.
 
-Managing multilingual content involves routine activities such as adding new language sites, publishing and translating content, and coordinating comments across languages. MultilingualPress simplifies these processes by providing intuitive interfaces, automated linking, and robust integration with WordPress Multisite. This ensures that global brands and content authors can efficiently scale their multilingual websites, maintain consistency, and deliver a seamless user experience across diverse language markets. For practical implementations, refer to detailed How-To guides provided by MultilingualPress, which walk you through each task step-by-step.
+**Benefit**: Translated or duplicated posts remain fully functional with images intact—no references to the old site with image metadata in the wrong language.
+
+<!-- Note: This section could benefit from a **screenshot** showing how media URLs are rewritten when posts are duplicated using the Gutenberg block editor. This would help users visualize the process. -->
+
+### 3. Media Copying in the Editor and Across the Network
+
+- **On-Demand Attachment Copy**: MLP’s features allow you to copy attachments from one subsite to another if you wish to unify content.
+- **Reduced Confusion**: Instead of manually downloading and re-uploading the same image, MLP helps replicate it into the target subsite library.
+
+<!-- Note: Added a practical example to clarify how MLP helps users avoid re-uploading media. A **screenshot** of the media copying process in the editor could be useful here to further illustrate the point. -->
+
+### 4. Future-Focused Architecture
+
+MLP’s approach to media duplication lines up with WordPress best practices—**no** overwriting or hooking into every raw image reference. Instead, only recognized block-based references are updated, preventing accidental rewrites of external or non-media links.
+
+<!-- Note: This section provides important technical info about MLP’s architecture. While not necessary, an **architecture diagram** could clarify how MLP handles media without affecting external links. -->
+
+---
+
+## Recommendation: Keep Libraries Separate, Leverage MLP Features
+
+1. **Per-Site Libraries**: Maintain local file metadata, ensuring each language’s alt text, legal disclaimers, or brand visuals suit local needs.
+2. **Use MLP for Duplication**: When creating new language sites or duplicating content, rely on MLP’s **“Copy Attachments”** and block-based URL rewriting for minimal overhead.
+3. **Optional Global Solutions**: If your organization truly needs a single asset bank, consider advanced plugins like **Network Media Library**. Yet, this can compromise local autonomy.
+4. **Validate Post-Copy**: Always confirm important pages or e-commerce listings after duplication. MLP typically handles block references well, but custom or third-party blocks may need a manual check.
+
+<!-- Note: Added more context and clarification around **per-site libraries** and the **validation process**. This section is more user-centered with a focus on simplicity. -->
+
+---
+
+## External Tools for Specialized Cases
+
+- **Network Media Library**: Merges subsite uploads into a single global media library.
+- **AMF WordPress**: Offloads or hosts media externally, still letting each site appear to have local media.
+- **Custom CDNs or S3 Offloads**: More advanced solutions for large networks needing cost-effective or globally cached media hosting.
+
+<!-- Note: Added recommendations for advanced solutions in case a global repository is required. **Screenshots** or **images** of the interfaces for these plugins (e.g., **Network Media Library**) could make it easier for users to compare these solutions visually. -->
+
+---
+
+## Conclusion
+
+With WordPress Multisite’s **default** design, each site uses a distinct media library—**MultilingualPress** embraces that separation while smoothing duplication, rewriting internal references for block-based content, and allowing site-level autonomy for truly multilingual workflows. Combined with MLP’s site duplication features, you can launch new language sites, copy existing media, and keep your brand consistent—without losing the flexibility to customize or localize each library.
+
+<!-- Note: The conclusion summarizes the key points but could include a **final screenshot** demonstrating the end-to-end media management workflow, including duplication and URL rewriting, to wrap up the explanation visually. -->
