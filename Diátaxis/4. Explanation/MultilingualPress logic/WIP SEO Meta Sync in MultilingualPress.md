@@ -1,3 +1,5 @@
+# SEO Meta Sync in MultilingualPress
+
 **Purpose**: This explanation highlights the **SEO meta sync** module available in **MultilingualPress 4.9+**, which streamlines the process of linking and managing SEO metadata across multiple language sites in a WordPress Multisite network—especially when using popular SEO plugins like Yoast or Rank Math. For older versions of MultilingualPress (pre-4.9.0), a separate add-on was required. This document clarifies how the integrated module works, why it’s beneficial, and what to do if you’re still on an older MultilingualPress release.
 
 ---
@@ -37,6 +39,8 @@
     - MultilingualPress pushes the relevant SEO fields to the corresponding language sites, ensuring consistent metadata across the network.
     - Optionally, check the translated sites’ SEO plugin meta boxes if you want to confirm the sync was successful.
 
+<!-- Note: A **screenshot** is needed here to show the **SEO Meta Sync** interface in the editor, particularly the **additional tabs** that appear for each language. This will help readers visually understand where to find the metadata fields for each language. -->
+
 ---
 
 ## Older Versions of MultilingualPress (Before 4.9.0)
@@ -64,8 +68,12 @@
     
     - For large networks, the SEO meta sync can dramatically reduce overhead—centralizing SEO management for dozens or hundreds of language sites.
 
+<!-- Note: A **screenshot** or **image** here could demonstrate how to enable the **SEO Meta Sync** feature in **MultilingualPress → Modules**, showing users exactly where to find this setting in their dashboard. -->
+
 ---
 
 ## Conclusion
 
 With **MultilingualPress 4.9+**, **SEO Meta Sync** is baked right into the plugin—**no add-on required**—to streamline and unify your SEO editing process across multiple language sites. It supports key fields from major SEO plugins like Yoast and Rank Math, letting you handle multilingual SEO from one screen. If you’re still on older MultilingualPress versions, consider upgrading to harness these expanded capabilities.
+
+<!-- Note: A **final screenshot** of the SEO fields syncing across languages in the editor would help summarize the process and provide a comprehensive visual of how this feature works in practice. -->
