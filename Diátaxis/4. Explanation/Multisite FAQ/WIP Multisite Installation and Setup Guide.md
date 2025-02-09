@@ -23,7 +23,7 @@
     ```php
     define('WP_ALLOW_MULTISITE', true);
     ```
-    
+
 3. **Save and Re-upload** `wp-config.php`.
 
 > **Result**: Multisite is now enabled, but the network isn’t fully created yet.
@@ -57,7 +57,7 @@ After installing the network, WordPress displays two sets of code:
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
     ```
-    
+
 2. **`.htaccess` Snippet** (replaces existing WP rules):
     
     ```apache
@@ -75,8 +75,10 @@ After installing the network, WordPress displays two sets of code:
     RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
     RewriteRule . index.php [L]
     ```
-    
+
 3. **Save & Re-upload** both files as needed.
+
+<!-- Note: This is the essential step to properly configure the multisite network in WordPress. A **screenshot** of the updated `wp-config.php` and `.htaccess` file can be added here to help users understand what needs to be modified. -->
 
 ---
 
@@ -93,6 +95,8 @@ After installing the network, WordPress displays two sets of code:
     - **Plugins**: Similarly installed by the Super Admin, optionally activated for all sites.
     - **Settings**: Basic network defaults (e.g., new site language, user registration, etc.).
 
+<!-- Note: This is a crucial section to help users understand what the **Network Admin** provides once activated. A **screenshot** of the Network Admin interface would greatly aid users in visualizing this new admin area. -->
+
 ---
 
 ## 5. Adding New Sites
@@ -104,6 +108,8 @@ After installing the network, WordPress displays two sets of code:
     - **Site Title** (e.g., “Blog A”).
     - **Site Language** (default locale for the subsite admin).
     - **Admin Email** (assign an existing user or create a new admin).
+
+<!-- Note: This is the step where users can add new subsites. Including a **screenshot** of the "Add New Site" form would help visualize the fields needed. -->
 
 ---
 
@@ -119,20 +125,20 @@ If you prefer using **WP-CLI**:
     sudo mv wp-cli.phar /usr/local/bin/wp
     wp --info
     ```
-    
+
 2. **Navigate to WP Root**:
     
     ```bash
     cd /var/www/html/your-site
     ```
-    
+
 3. **Backup** your site and database.
 4. **Convert** to multisite:
     
     ```bash
     wp core multisite-convert
     ```
-    
+
 5. **Update Config**: WP-CLI will provide instructions similar to the manual method for `wp-config.php` and `.htaccess`.
 6. **Remove “/blog/” Prefix (Optional)**:
     - If your primary site’s URLs show a “/blog/” slug, remove it by resetting the permalink structure:
@@ -141,8 +147,10 @@ If you prefer using **WP-CLI**:
         wp option update permalink_structure "/%postname%/"
         wp rewrite flush
         ```
-        
+
 7. **Tip**: For a **multilingual** network, **MultilingualPress** offers additional CLI commands to automate content links, attachments, and bulk site creation—saving time when adding new languages or replicating site structures.
+
+<!-- Note: This section offers an alternative method for those familiar with WP-CLI. A **screenshot** showing how WP-CLI commands are entered in the terminal would be useful for users unfamiliar with the command line. -->
 
 ---
 
@@ -152,6 +160,8 @@ If you prefer using **WP-CLI**:
 - **Plugins**: Similarly installed at the network level. Site admins typically only activate/deactivate them locally.
 - **Users**: A single user table is shared across the network. Assign roles on each subsite. One user could be an Editor on Site A, an Admin on Site B.
 
+<!-- Note: Users should be aware of the limitations around theme and plugin management. A **screenshot** of the Network Admin user and plugin sections would be beneficial to visualize roles and activations. -->
+
 ---
 
 ## Conclusion
@@ -159,3 +169,5 @@ If you prefer using **WP-CLI**:
 WordPress Multisite can be set up either manually—by editing `wp-config.php`, `.htaccess`, and the network setup screen—or via a single WP-CLI command (`wp core multisite-convert`). Once active, a **Network Admin** interface centralizes theme/plugin installations, user management, and site creation.
 
 This architecture is ideal for **multiple sites**, including **multilingual** networks, because each subsite remains autonomous yet benefits from unified updates. Explore more scenarios in [WordPress Multisite for Different Scenarios](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d?model=o1#) to understand how organizations, universities, and global brands leverage multisite for efficient site management.
+
+<!-- Note: A **final screenshot** showing the Multisite network setup in action or the final configuration step would help wrap up the guide effectively. -->
