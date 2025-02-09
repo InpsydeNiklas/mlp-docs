@@ -6,3 +6,5 @@
 # Connecting Amazon Translate
 # Connecting OpenAI translte
 # Connecting DeepL Translate
+
+## I added some files that I didn't add to this list
