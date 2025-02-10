@@ -7,3 +7,5 @@
 # Connecting OpenAI translte
 # Connecting DeepL Translate
 # How the Language Manager works
+
+## I added some files that I didn't add to this list
