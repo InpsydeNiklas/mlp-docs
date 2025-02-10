@@ -6,3 +6,4 @@
 # Connecting Amazon Translate
 # Connecting OpenAI translte
 # Connecting DeepL Translate
+# How the Language Manager works
