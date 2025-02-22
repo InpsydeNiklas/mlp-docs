@@ -1,5 +1,6 @@
 **Overview**:  
 The **QuickLinks** feature in MultilingualPress provides simple navigation links to translated content, integrated within posts. When enabled, the QuickLinks tab appears in the global settings, allowing administrators to customize where these links display.
+![[Pasted image 20250222234613.png]]
 
 **Key Points**:
 

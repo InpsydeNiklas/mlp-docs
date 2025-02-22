@@ -41,17 +41,13 @@ Domain mapping replaces these default addresses with unique domains (e.g., `site
 - **DNS (Domain Name System)**:  
     Ties your custom domain to the IP address or hosting server of your multisite. You must configure DNS records (A, CNAME, AAAA, Nameservers) so your domain points to the same server hosting your Multisite.
 
-    <!-- Note: A screenshot of DNS configuration in cPanel or another hosting control panel could be useful here. -->
-
 - **Hosting Dashboard**:  
     Depending on your hosting environment, you typically need to register each domain/subdomain in your hosting control panel (e.g., cPanel, Plesk) as an alias or parked domain. This step ensures the server knows to route domain requests to your WordPress Multisite.
-
-    <!-- Note: A screenshot of the Hosting Dashboard (cPanel/Plesk) showing domain registration or domain aliasing would be helpful here. -->
 
 - **Network Admin**:  
     In **My Sites → Network Admin → Sites**, you can edit each subsite to specify the **Site Address (URL)** as the new custom domain.
 
-    <!-- Note: A screenshot of the Network Admin interface with the Site Address (URL) section would aid users in understanding the process visually. -->
+![[Pasted image 20250222233822.png]]
 
 ---
 
@@ -60,21 +56,15 @@ Domain mapping replaces these default addresses with unique domains (e.g., `site
 1. **WordPress Multisite Setup**  
     Begin by installing and configuring a WordPress Multisite with either subfolders or subdomains as the default structure.
 
-    <!-- Note: Include a screenshot of the WordPress Multisite setup process if possible. -->
-
 2. **DNS Configuration**
     
     - Create the necessary DNS records so your custom domain (e.g., `my-new-site.com`) points to your hosting provider’s nameservers or IP address.
     - If using wildcards (e.g., `*.example.com`), you can map multiple subdomains without creating individual DNS entries each time.
 
-    <!-- Note: A screenshot of DNS settings from a domain registrar like GoDaddy or Namecheap would help illustrate this step. -->
-
 3. **Host/Server Configuration**
     
     - In your hosting control panel, add the custom domain as an alias, parked domain, or additional domain.
     - This step ensures the server recognizes incoming requests for `my-new-site.com` and serves content from your multisite.
-
-    <!-- Note: A screenshot of how to add an alias or parked domain in cPanel or Plesk would be helpful here. -->
 
 4. **Mapping the Domain in WordPress**
     
@@ -83,14 +73,10 @@ Domain mapping replaces these default addresses with unique domains (e.g., `site
     - In **Site Address (URL)**, replace `site1.my-network.com` (or similar) with the custom domain `my-new-site.com`.
     - Save changes. Now WordPress will serve that subsite at the new domain.
 
-    <!-- Note: A screenshot of the “Site Address (URL)” field in Network Admin should be included to help users easily identify where to map the domain. -->
-
 5. **SSL Certificates**
     
     - For secure connections, each mapped domain typically needs its own SSL certificate (e.g., via Let’s Encrypt).
     - Proper SSL setup ensures HTTPS functions correctly across all mapped domains.
-
-    <!-- Note: A screenshot of SSL certificate installation through cPanel or Let’s Encrypt would be useful here. -->
 
 ---
 

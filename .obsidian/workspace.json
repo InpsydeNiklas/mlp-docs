@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diátaxis/4. Explanation/Multisite FAQ/WIP Understanding the WordPress Multisite Database Structure.md",
+                "file": "Diátaxis/4. Explanation/License/WIP What Happens If My Subscription Expires.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WIP Understanding the WordPress Multisite Database Structure"
+              "title": "WIP What Happens If My Subscription Expires"
             }
           }
         ]
@@ -170,20 +170,42 @@
   },
   "active": "341932bf53259a8a",
   "lastOpenFiles": [
-    "Diátaxis/4. Explanation/MultilingualPress logic/WIP How the Language Manager works.md",
-    "Diátaxis/1. Tutorials/Configure MLP/WIP Connecting DeepL Translate.md",
-    "Diátaxis/1. Tutorials/Configure MLP/WIP Connecting OpenAI Translate.md",
-    "Diátaxis/1. Tutorials/Configure MLP/WIP Connecting Amazon Translate.md",
-    "Diátaxis/2. How-to guides/Guides/WIP How to migrate from Polylang to MultilingualPress.md",
+    "Diátaxis/4. Explanation/License/WIP How Many MultilingualPress Licenses Do I Need.md",
+    "Diátaxis/4. Explanation/License/WIP Can I Try Before I Buy.md",
+    "Diátaxis/4. Explanation/License/WIP 30-Day Refund Guarantee.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Migration from MLP2 to MLP4 fails.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Media Library Content not copied during Site Duplication - Explanation and Solutions.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Language Flags not showing.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Incorrect hreflangs.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Conflict with Page Builders.md",
+    "Diátaxis/4. Explanation/Frequently reported issues/WIP Conflict with Custom Post Types.md",
+    "Diátaxis/2. How-to guides/Guides with third-party Plugins/WIP Translate ACF Fields with MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides with third-party Plugins/WIP Enable WooCommerce support.md",
+    "Diátaxis/2. How-to guides/Guides with third-party Plugins/WIP Enable Elementor support.md",
+    "Diátaxis/2. How-to guides/Guides with third-party Plugins/WIP Enable Beaver Builder support.md",
+    "Diátaxis/2. How-to guides/Guides with third-party Plugins/WIP Connect and Translate WooCommerce Attributes.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Translate WooCommerce Products with MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Translate Post Type and Taxonomy Slugs with MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Run Code When the “Copy Source Content” Option Is Checked.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Publish and Translate New Content in Multiple Languages.md",
     "Diátaxis/2. How-to guides/Guides/WIP How to migrate from WPML to MultilingualPress.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Multisite Network Admin.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Multisite Installation and Setup Guide.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Domain Mapping with WordPress Multisite.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Considering WordPress Multisite - Benefits and Tradeoffs.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Can I use MultilingualPress with a regular single WordPress site.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP What Is WordPress Multisite.md",
-    "Diátaxis/4. Explanation/Multisite FAQ/WIP Understanding the WordPress Multisite Database Structure.md",
-    "Diátaxis/4. Explanation/MultilingualPress logic/WIP Building a Multilingual WooCommerce Store with MultilingualPress.md",
-    "new docs/new docs.md"
+    "Diátaxis/2. How-to guides/Guides/WIP How to migrate from Polylang to MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Install and Set Up a WordPress Multisite Network.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Create and Translate Custom Post Types & Taxonomies with MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Create a New Language Version of a Site with MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Create a Custom Language Switcher in MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Copy Post Meta to Remote Sites in MultilingualPress.md",
+    "Diátaxis/2. How-to guides/Guides/WIP How to Copy Media Library Content Between Connected Sites.md",
+    "Pasted image 20250222235133.png",
+    "Pasted image 20250222235119.png",
+    "Pasted image 20250222235106.png",
+    "Pasted image 20250222235046.png",
+    "Pasted image 20250222234613.png",
+    "Pasted image 20250222234425.png",
+    "Pasted image 20250222234319.png",
+    "Pasted image 20250222234213.png",
+    "Pasted image 20250222234019.png",
+    "Pasted image 20250222234007.png",
+    "Blog Post Ideas"
   ]
 }

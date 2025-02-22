@@ -13,8 +13,6 @@ In older MLP versions, when you copied or linked content from one language site 
 - **Performance overhead**: Parsing every URL in the post to check if it pointed to an existing remote page was resource-intensive.
 - **Broken media references**: If media wasn’t duplicated, updating media URLs would lead to missing images.
 
-<!-- Note: Condensed this section to focus on the historical reasons for not altering URLs. -->
-
 ---
 
 ## Modern Approach (MLP 4.9+)
@@ -31,8 +29,6 @@ When content is copied, MLP duplicates media attachments to the **remote site’
 
 > **Important**: This automatic URL rewriting only applies to **WordPress core block** references. If you use custom or third-party blocks that store media differently, MLP may not detect or change those media links.
 
-<!-- Note: Rewritten for clarity and to highlight the importance of the "Copy Attachments" feature. -->
-
 ### 2. **Classic Editor or Non-Core Content**
 
 Content entered via:
@@ -46,8 +42,6 @@ MLP **does not** automatically rewrite URLs for these cases. The plugin can’t 
 - Media may not be recognized for duplication.
 - The existing media URLs will remain pointing to the source site.
 
-<!-- Note: Simplified and clarified the explanation about non-core content handling. -->
-
 ### 3. **Whole Site Duplication & Media**
 
 For **site duplication** (e.g., creating a new site “based on” an existing one):
@@ -55,8 +49,6 @@ For **site duplication** (e.g., creating a new site “based on” an existing o
 - MLP can copy the entire Media Library to the new site if you select **“Copy attachments”**.
 - For pages/posts using the **block editor**, MLP updates embedded references so images point to the newly created media objects in the duplicated site.
 - Custom logic, Classic Editor HTML, or external references will remain unchanged.
-
-<!-- Note: Improved clarity in explaining site duplication and the handling of media. -->
 
 ---
 
@@ -74,8 +66,6 @@ Even with the improvements in media URL rewriting for block-based content, MLP s
     - A URL like `example.com/en/page-slug` might not exist in `example.com/de/`. Automatically changing it to `example.com/de/page-slug` could result in a 404 if the page doesn't exist in the target language.
 
 MLP focuses on **reliably recognized** content references, specifically **block-based media** that the plugin knows how to duplicate and link properly.
-
-<!-- Note: Simplified the reasons for not replacing all URLs, focusing on the key risks and performance considerations. -->
 
 ---
 
@@ -96,12 +86,8 @@ MLP focuses on **reliably recognized** content references, specifically **block-
 5. **Contribute to Compatibility**
     - If you find block types or media references that MLP doesn't yet rewrite, share feedback with our support team to help improve compatibility.
 
-<!-- Note: Expanded the Best Practices section with actionable steps for users. Made it more practical for users to follow. -->
-
 ---
 
 ## Conclusion
 
 **MultilingualPress 4.9.0+** improves how media URLs are copied for core block editor content by **rewriting** them to the new site’s Media Library references upon duplication. However, links outside the standard block framework remain unchanged to prevent unintentional breakage. By using the block editor and MLP’s “Copy Attachments” feature, you can streamline multilingual content creation with minimal manual adjustments to URLs.
-
-<!-- Note: Streamlined conclusion to focus on the key improvements with MLP 4.9.0+ and practical advice for users. -->

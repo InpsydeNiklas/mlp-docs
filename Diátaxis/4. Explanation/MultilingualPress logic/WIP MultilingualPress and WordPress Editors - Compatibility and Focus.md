@@ -23,8 +23,6 @@
     - **MLP’s Approach**:
         - We aim to ensure that block-based site editing remains seamless across translated sites, focusing on providing intuitive solutions for global or per-language block structures.
 
-<!-- Note: No major changes here. This section clearly explains the different editor types and how MLP integrates with them. Could benefit from a **screenshot** of how MLP works with the block editor (Gutenberg). -->
-
 ---
 
 ## MultilingualPress & Page Builders
@@ -55,8 +53,6 @@ While the block editor is our core development focus, many site owners prefer ad
     - Ensuring each language site loads only the necessary builder assets, preserving performance and stability.
     - Our team listens to user experiences—if you encounter issues with a builder, we welcome your feedback to improve or add deeper integration.
 
-<!-- Note: The compatibility with page builders is clear, but this section could include a bit more detail on troubleshooting tips for specific builders. A **screenshot** of how Elementor and MLP work together would also be helpful here. -->
-
 ---
 
 ## Why Our Primary Focus Is the Block Editor
@@ -65,13 +61,9 @@ While the block editor is our core development focus, many site owners prefer ad
 - **Performance & Future-Readiness**: A single code baseline for editing experiences helps keep your multilingual content lean, portable, and free from lock-in.
 - **UX Consistency**: The block editor provides a consistent UI for content creation, letting MLP integrate seamlessly for language switching and translation linking.
 
-<!-- Note: The rationale behind the focus on the block editor is well-explained. This section is clear, but a **graphic** or **illustration** showing the advantages of the block editor could provide additional clarity. -->
-
 ---
 
 ## Classic Editor & Legacy Support
 
 - **Continuing Legacy Projects**: If you maintain older sites or prefer the Classic Editor for workflow reasons, **MultilingualPress** remains compatible.
 - **Enterprise Environments**: Some organizations rely on older editorial processes or custom post flows—MLP does not force you to adopt the block editor. You can always install the [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/) network-wide or individually, and MLP translations remain unaffected.
-
-<!-- Note: This section reassures users about the compatibility with legacy systems. Could benefit from a **screenshot** showing Classic Editor working with MLP. -->

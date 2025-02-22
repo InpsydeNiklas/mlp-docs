@@ -8,9 +8,6 @@
 
 **Redirection** is an essential feature for multilingual websites, as it ensures that visitors are automatically taken to the language version of the site that matches their preferences (either through browser settings or geolocation). MultilingualPress makes it easy to set up automatic redirection, improving user experience by reducing the effort needed to switch languages manually. Recent updates provide additional flexibility in how redirection is executed and detected. This guide will walk you through activating and configuring these features.
 
-> **Change/Additions**:  
-> - **Added context** to explain the importance of redirection for multilingual websites, particularly for new users unfamiliar with its benefits.
-
 ---
 
 ## Steps to Set Up Automatic Language Redirection

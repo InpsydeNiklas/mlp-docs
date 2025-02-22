@@ -13,8 +13,6 @@ Using hreflang correctly can:
 - **Boost search visibility**: Helping search engines understand your multilingual content, which can lead to better rankings in relevant regions.
 - **Prevent SEO penalties**: Proper implementation avoids duplicate content issues across different language versions of the same page.
 
-<!-- Note: Simplified the language around hreflang benefits. Reduced SEO jargon, made it clearer for general users. -->
-
 ---
 
 ## How does hreflang work with MultilingualPress?
@@ -27,8 +25,6 @@ Using hreflang correctly can:
 ### Key Point:
 You don't need to manually add or configure hreflang tags. As long as your translations are correctly linked in MultilingualPress, the plugin will handle it for you.
 
-<!-- Note: Combined the "How does hreflang work with MultilingualPress?" and "What do I need to do to implement hreflang with MultilingualPress?" sections for clarity and conciseness. Focused on simplifying the implementation process. -->
-
 ---
 
 ## Why is correct hreflang implementation important?
@@ -36,8 +32,6 @@ You don't need to manually add or configure hreflang tags. As long as your trans
 - **Language Targeting**: Search engines can serve the right language version of your page to users, improving their experience and engagement.
 - **Duplicate Content Prevention**: Proper hreflang tags differentiate similar pages in different languages, preventing search engines from seeing them as duplicate content and applying penalties.
 - **Improved User Experience**: By delivering the correct language version, you ensure visitors can easily engage with your content, leading to better conversions and lower bounce rates.
-
-<!-- Note: Condensed and simplified the explanation, adding a clearer focus on the positive outcomes of proper hreflang usage. -->
 
 ---
 
@@ -53,7 +47,6 @@ If you have an English page (`example.com/en/`) and a French version (`example.c
 <link rel="alternate" hreflang="en" href="https://example.com/en/" />
 <link rel="alternate" hreflang="fr" href="https://example.com/fr/" />
 
-<!-- Note: Added an example to clarify what the hreflang tags should look like. Simplified steps for testing. -->
 ---
 
 ## What do I need to do to implement hreflang with MultilingualPress?
@@ -64,8 +57,6 @@ If you have an English page (`example.com/en/`) and a French version (`example.c
 
 By ensuring that your content is linked correctly in MultilingualPress, the plugin will manage hreflang implementation for you, optimizing your multilingual site for both users and search engines.
 
-<!-- Note: Condensed and simplified the section to focus on the main actions needed—linking translations in MultilingualPress. Removed unnecessary repetition. -->
-
 ---
 
 ## Conclusion
@@ -73,5 +64,3 @@ By ensuring that your content is linked correctly in MultilingualPress, the plug
 **MultilingualPress** automates the hreflang process, ensuring that search engines serve the right language version of your pages to users. By simply linking your content across different language sites, **MultilingualPress** handles the hreflang tags for you, improving SEO and user experience without manual configuration.
 
 For the best results, focus on ensuring that your translations are connected correctly in MultilingualPress, and let the plugin do the rest. This approach simplifies SEO for multilingual sites, making it easier to target users in different regions and languages.
-
-<!-- Note: Simplified conclusion to emphasize the key points and focus on practical steps for users. Reduced redundancy. -->

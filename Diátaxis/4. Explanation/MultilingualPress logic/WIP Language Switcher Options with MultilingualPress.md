@@ -15,7 +15,6 @@
 - **Reference**:
     - [How to Set and Use the MultilingualPress Block Menu](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#)
 
-<!-- Note: No major change in content here, but streamlined for clarity and flow. The bullet points are kept concise for easy understanding. -->
 
 ---
 
@@ -32,7 +31,6 @@
 - **Reference**:
     - [How to Set Up a Language Switcher for Multilingual WordPress Websites](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#)
 
-<!-- Note: Simplified and condensed the description of the widget to make it more accessible. Reduced jargon, focusing on essential features and limitations. -->
 
 ---
 
@@ -48,7 +46,6 @@
 - **Reference**:
     - [How to Set Up a Language Switcher for Multilingual WordPress Websites](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#)
 
-<!-- Note: The explanation was kept mostly the same, but it was made more concise and less technical. Emphasis on the manual aspect of the process was retained, with an easy-to-follow description. -->
 
 ---
 
@@ -64,7 +61,6 @@
 - **Reference**:
     - [How to Create a Custom Language Switcher in MultilingualPress](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#)
 
-<!-- Note: This section was kept for advanced users and developers, but the language was simplified to make it more approachable. The explanation of the need for PHP knowledge was kept concise. -->
 
 ---
 
@@ -81,7 +77,6 @@
 - **Reference**:
     - [MultilingualPress Quicklinks Guide](https://chatgpt.com/g/g-p-677ffd6da894819197dd7cf3a90d93fa-mlp-docs/c/6780001b-80d8-8011-8739-903a6ccdb99d#)
 
-<!-- Note: Simplified the description to make it more accessible. Kept focus on minimal setup and auto-injection features, while avoiding excessive technical detail. -->
 
 ---
 
@@ -92,7 +87,6 @@
 - **Custom CSS**:
     - Regardless of the method (block, widget, or menu), you can always add custom CSS to style or position flags/icons next to language links.
 
-<!-- Note: Expanded this section to make it clearer that **Site Flags Module** is available in newer versions of MultilingualPress. Also, added mention of **Custom CSS** for styling flexibility. -->
 
 ---
 
@@ -104,7 +98,6 @@
 - **Maximum Customization**: Choose the **Custom Language Switcher** for full control over styling and logic.
 - **Minimal Setup**: Use **Quicklinks** if you want lightweight, auto-injected language links.
 
-<!-- Note: This section was condensed and simplified to avoid repetition from the summary section. Clear guidance was provided for selecting the appropriate switcher based on user preferences. -->
 
 ---
 
@@ -119,5 +112,3 @@ MultilingualPress offers several language switcher options to suit different sit
 5. **Quicklinks** – Lightweight, automatic language links for minimal setup.
 
 For detailed **step-by-step** guides on each option, refer to the **How-To** documents linked throughout. Choose the best approach based on your site’s structure and your preferences to create a smooth and intuitive language switcher for your visitors.
-
-<!-- Note: The Summary section was simplified to avoid redundancy with earlier content. Focus was shifted to provide a clearer, more concise list of options. -->

@@ -28,8 +28,8 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 
 - **Centralized Management**:
     - Manage all subsites, users, themes, plugins, and network settings in one place.
+      ![[Pasted image 20250222234213.png]]
     - Single sign-on allows seamless navigation between sites without re-authentication.
-    - <!-- Note: Add a screenshot of the Network Admin dashboard here to help visualize the centralized management process. -->
 - **Simplified User Management**:
     - Users added at the network level are registered across all subsites, with roles assigned per site.
     - Network registration settings control how users can register and create new sites within the network.
@@ -42,7 +42,6 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 
 - **Home**: Quick links for creating new sites, managing users, and checking for updates.
     - Summaries of network activity, such as recent site creations or WooCommerce orders.
-    - <!-- Note: Add a screenshot here of the Network Admin dashboard with quick links highlighted. -->
 - **Updates**:
     - Oversee and apply updates to WordPress core, themes, and plugins across the network.
     - Upgrade all sites in the network after a WordPress core update to ensure consistency.
