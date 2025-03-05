@@ -1,3 +1,5 @@
+# SEO Meta Sync in MultilingualPress
+
 **Purpose**: This explanation highlights the **SEO meta sync** module available in **MultilingualPress 4.9+**, which streamlines the process of linking and managing SEO metadata across multiple language sites in a WordPress Multisite network—especially when using popular SEO plugins like Yoast or Rank Math. For older versions of MultilingualPress (pre-4.9.0), a separate add-on was required. This document clarifies how the integrated module works, why it’s beneficial, and what to do if you’re still on an older MultilingualPress release.
 
 ---
@@ -37,6 +39,10 @@
     - MultilingualPress pushes the relevant SEO fields to the corresponding language sites, ensuring consistent metadata across the network.
     - Optionally, check the translated sites’ SEO plugin meta boxes if you want to confirm the sync was successful.
 
+<!-- Note: @Niklas - This needs clarification
+
+A **screenshot** is needed here to show the **SEO Meta Sync** interface in the editor, particularly the **additional tabs** that appear for each language. This will help readers visually understand where to find the metadata fields for each language. -->
+
 ---
 
 ## Older Versions of MultilingualPress (Before 4.9.0)
@@ -63,6 +69,7 @@
 4. **Enterprise Scenarios**
     
     - For large networks, the SEO meta sync can dramatically reduce overhead—centralizing SEO management for dozens or hundreds of language sites.
+
 
 ---
 

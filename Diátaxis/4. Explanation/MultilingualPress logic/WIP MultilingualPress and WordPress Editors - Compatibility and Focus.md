@@ -67,15 +67,3 @@ While the block editor is our core development focus, many site owners prefer ad
 
 - **Continuing Legacy Projects**: If you maintain older sites or prefer the Classic Editor for workflow reasons, **MultilingualPress** remains compatible.
 - **Enterprise Environments**: Some organizations rely on older editorial processes or custom post flows—MLP does not force you to adopt the block editor. You can always install the [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/) network-wide or individually, and MLP translations remain unaffected.
-
----
-
-## Summary
-
-MultilingualPress 4.9+ is fully compatible with:
-
-- **Modern WordPress Editor** (Gutenberg blocks, Full Site Editing themes).
-- **Classic Editor** if you choose to retain the older workflow.
-- **Popular Page Builders** like Elementor, Beaver Builder, WPBakery, Bricks, and others, provided you activate them per site or network-wide as needed.
-
-**Our Development Focus** remains on the WordPress block paradigm for performance, code cleanliness, and user experience, while we also maintain broad compatibility with page builders. We welcome your input if you encounter any special needs or incompatibilities, as user feedback drives improvements in our ongoing goal to deliver the most flexible and future-proof multilingual solution.

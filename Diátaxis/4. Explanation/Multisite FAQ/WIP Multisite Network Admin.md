@@ -10,17 +10,14 @@ This document provides an overview of the **Multisite Network Admin** area in Wo
 In a Multisite environment, user capabilities are structured into distinct roles:
 
 - **Super Admin**:
-    
     - Holds the highest level of control across the entire network.
     - Can install and manage plugins/themes, create or delete subsites, manage users across all sites, and configure network-wide settings.
     - The only user who can access the **Network Admin** dashboard.
 - **Site Administrator**:
-    
     - Manages content, pages, posts, and site-specific settings on individual subsites.
     - Cannot install plugins or themes; can only activate ones that the Super Admin has made available.
     - Lacks access to network-level settings and the overall administration of other sites.
 - **Other WordPress Roles**:
-    
     - Subscriber, Contributor, Author, Editor: These roles exist on each subsite, with standard capabilities limited to that particular site’s content management, unless extended by network policies.
 
 ---
@@ -31,6 +28,7 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 
 - **Centralized Management**:
     - Manage all subsites, users, themes, plugins, and network settings in one place.
+      ![[Pasted image 20250222234213.png]]
     - Single sign-on allows seamless navigation between sites without re-authentication.
 - **Simplified User Management**:
     - Users added at the network level are registered across all subsites, with roles assigned per site.
@@ -43,10 +41,11 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 ### Dashboard
 
 - **Home**: Quick links for creating new sites, managing users, and checking for updates.
-	- Summaries of network activity, such as recent site creations or WooCommerce orders.
+    - Summaries of network activity, such as recent site creations or WooCommerce orders.
 - **Updates**:
     - Oversee and apply updates to WordPress core, themes, and plugins across the network.
     - Upgrade all sites in the network after a WordPress core update to ensure consistency.
+
 ### Sites
 
 - **Site Management**:
@@ -72,7 +71,6 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 - **Global Settings Configuration**:
     - Control defaults like user registration policies, theme/plugin availability for site admins, and other network behaviors.
 
-
 ---
 
 ## Benefits of the Network Admin Area
@@ -88,10 +86,7 @@ The **Network Admin** dashboard is a special control panel accessible only to Su
 
 The **Multisite Network Admin** is the heart of a WordPress Multisite installation. It empowers Super Admins to efficiently manage an entire network of sites from one centralized dashboard while maintaining distinct administration layers for individual site administrators. Understanding the roles, layout, and capabilities of Network Admin is crucial for effectively operating and scaling a multisite network, particularly for multilingual projects leveraging plugins like MultilingualPress.
 
-
 ## Helpful Resources
 
 - [Managing a WordPress multisite network (Video)](https://learn.wordpress.org/lesson/managing-a-wordpress-multisite-network/)
 - [Advanced multisite management (Video)](https://learn.wordpress.org/lesson/advanced-multisite-management/)
-
-

@@ -1,3 +1,5 @@
+# Media Handling in a WordPress Multisite with MultilingualPress
+
 **Purpose**: This article explains how WordPress Multisite manages media by default—each subsite having its own library—and how **MultilingualPress (MLP)** simplifies working with media files in multilingual networks. We’ll discuss both the underlying pros and cons of the default approach and how MultilingualPress’ features help you avoid some of the hassle typically associated with separate media libraries.
 
 ---
@@ -13,6 +15,7 @@ By default, each **WordPress Multisite** subsite stores uploaded images, videos,
 
 - **Localization**: Different language versions of an image can have separate translations for alt text or file titles.
 - **Site Autonomy**: Subsites can deviate or replace brand assets freely without affecting others.
+
 
 ---
 
@@ -46,6 +49,7 @@ By default, each **WordPress Multisite** subsite stores uploaded images, videos,
     - If you want identical media changes across all translations simultaneously, that is not natively provided in WordPress.
     - **Recommendation**: Evaluate advanced solutions if your assets frequently change. However, for most multilingual sites, partial autonomy is beneficial.
 
+
 ---
 
 ## How MultilingualPress Eases Media Management
@@ -62,6 +66,8 @@ When you create a subsite “based on” an existing one, **MultilingualPress** 
 - Kickstart a new language version with the same brand assets or product images.
 - Edits remain site-specific afterward, letting local teams alter or replace assets without messing up the original.
 
+![[Pasted image 20250222232111.png]]
+
 ### 2. Copy Attachments for Core Blocks
 
 For the **block editor** (Gutenberg), MLP can automatically rewrite internal media URLs when copying a post’s content:
@@ -76,6 +82,9 @@ For the **block editor** (Gutenberg), MLP can automatically rewrite internal med
 - **On-Demand Attachment Copy**: MLP’s features allow you to copy attachments from one subsite to another if you wish to unify content.
 - **Reduced Confusion**: Instead of manually downloading and re-uploading the same image, MLP helps replicate it into the target subsite library.
 
+![[Pasted image 20250222232408.png]]
+
+![[Pasted image 20250222232435.png]]
 ### 4. Future-Focused Architecture
 
 MLP’s approach to media duplication lines up with WordPress best practices—**no** overwriting or hooking into every raw image reference. Instead, only recognized block-based references are updated, preventing accidental rewrites of external or non-media links.
@@ -96,6 +105,7 @@ MLP’s approach to media duplication lines up with WordPress best practices—*
 - **Network Media Library**: Merges subsite uploads into a single global media library.
 - **AMF WordPress**: Offloads or hosts media externally, still letting each site appear to have local media.
 - **Custom CDNs or S3 Offloads**: More advanced solutions for large networks needing cost-effective or globally cached media hosting.
+
 
 ---
 

@@ -1,16 +1,19 @@
+# Translating Comments & Product Reviews
+
 **MultilingualPress Comments Support** extends the core functionality of the plugin to manage and synchronize comments (including WooCommerce reviews) across connected multilingual sites. This integration leverages the same principles used for translating posts, pages, and other content types, ensuring that user interactions like comments remain consistent and accessible in multiple languages.
 
 ### Key Concepts of Comments Integration
 
 1. **Language Connections for Comments**:  
     Just as MultilingualPress links posts and pages across different language sites, it also connects comments made on content. When two posts (e.g., "First Post English Site" and its Italian counterpart) are linked, their associated comments can be related as translations or copies. This ensures that if a visitor leaves a comment on one language version, that interaction can be propagated or linked to the corresponding version in another language.
-    
+
 2. **Comment Translation Metabox**:  
     In the WordPress admin, when editing a comment on a source site, a **translation metabox** appears below the comment if the Comments module is active. This metabox is similar to those found on posts:
     
     - It allows administrators to **create** a corresponding comment on a connected site in another language.
     - It supports **linking** an existing comment from another site to the current comment.
     - It includes options to **overwrite specific fields**, such as the author information or content, ensuring that translated comments maintain consistency with the source.
+
 3. **Bulk Comment Operations**:  
     MultilingualPress provides features for **bulk copying comments** from one site to another. Through the settings panel of a subsite, administrators can:
     
@@ -22,6 +25,7 @@
 4. **Integration with Site Creation**:  
     When creating a new site based on an existing one, MultilingualPress can copy over not just posts and pages but also their associated comments. This means that a newly created language site can inherit the conversational history (comments) of the source site, providing context and continuity across translations from the outset.
     
+
 5. **WooCommerce Reviews Support**:  
     The integration is not limited to standard WordPress comments. MultilingualPress extends similar functionality to **WooCommerce product reviews**:
     

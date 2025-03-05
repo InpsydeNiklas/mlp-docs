@@ -2,6 +2,7 @@
 
 **Overview**:  
 The **License** tab in MultilingualPress global settings is where you manage your plugin license, ensuring you receive updates, support, and compliance with the usage terms.
+![[Pasted image 20250222234425.png]]
 
 **Key Points**:
 

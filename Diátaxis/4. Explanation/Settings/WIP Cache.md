@@ -3,6 +3,7 @@
 
 **Overview**:  
 The **Cache** settings in MultilingualPress let you manage internal caching mechanisms to improve performance and avoid conflicts with external caching layers or plugins.
+![[Pasted image 20250222234319.png]]
 
 **Key Points**:
 
