@@ -1,0 +1,1 @@
+As we need to replace the product videos, I'm suggesting we maybe create a new series of videos.

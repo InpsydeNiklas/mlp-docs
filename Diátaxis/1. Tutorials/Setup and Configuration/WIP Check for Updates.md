@@ -1,3 +1,5 @@
+<!-- I think this should move to the installation doc -->
+
 
 **Purpose:** Keep your plugin current for bug fixes, new features, and security improvements.
 
