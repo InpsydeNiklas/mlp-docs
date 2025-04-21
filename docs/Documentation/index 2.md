@@ -1,10 +1,9 @@
 ---
 layout: default
-title: MultilingualPress Glossary
-nav_order: 2
+title: Menu sub item
+nav_order: 1
 has_children: false
+parent: MultilingualPress Glossary
 ---
 
-Here we can add a description of the project.
-
-[[docs/Documentation/3. Reference/WIP Glossary|WIP Glossary]]
+This provides additional information.
