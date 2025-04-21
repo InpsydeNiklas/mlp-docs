@@ -4,16 +4,16 @@ nav_order: 0
 permalink: /
 ---
 
-# Products Documentation
+# MultilingualPress Documentation
 
-This is the documentation for the products of the Inpsyde GmbH.
+This is the documentation for the MultilingualPress, crafted by Syde GmbH.
 
-## Crafted by Inpsyde
+## Crafted by Syde
 
-The team at [Inpsyde](https://inpsyde.com) is engineering the Web since 2006.
+The team at [Syde](https://syde.com) is engineering the Web since 2006.
 
 ## License
 
-Copyright (c) 2024, Inpsyde GmbH
+Copyright (c) 2025, Syde GmbH
 
-This software is released under the [<YOUR_REPO_LICENSE>](<YOUR_REPO_LICENSE_URL>) license.
+This document is released under the [<YOUR_REPO_LICENSE>](<YOUR_REPO_LICENSE_URL>) license.
