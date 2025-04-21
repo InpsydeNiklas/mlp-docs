@@ -1,8 +1,8 @@
 ---
 title: Connecting DeepL Translate
 nav_order: 3
-parent: Configure AutoTranslate
-has_children: true
+parent: Connecting Amazon Translate
+has_children: false
 ---
 ## Overview
 
