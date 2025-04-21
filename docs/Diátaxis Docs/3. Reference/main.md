@@ -1,0 +1,1 @@
+Our _Reference section_ is for when you need to know which options can be used or what functions the MultilingualPress API supports for you to build solutions with custom requirements.
