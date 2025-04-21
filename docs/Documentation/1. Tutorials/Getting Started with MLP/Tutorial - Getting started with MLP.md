@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Getting started with MLP
+title: Getting started with MLP
 nav_order: 1
 parent: Tutorials
 has_children: true

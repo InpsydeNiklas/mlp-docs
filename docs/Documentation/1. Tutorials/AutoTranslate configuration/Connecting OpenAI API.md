@@ -2,7 +2,7 @@
 title: Connecting OpenAI API
 nav_order: 4
 parent: Configure AutoTranslate
-has_children: false
+has_children: true
 ---
 ## Overview
 

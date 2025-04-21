@@ -1,7 +1,7 @@
 ---
 title: Create a new language version of the site
 nav_order: 1
-parent: Tutorial - Getting started with MLP
+parent: Getting started with MLP
 has_children: false
 ---
 

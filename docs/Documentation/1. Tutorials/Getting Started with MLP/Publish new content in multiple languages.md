@@ -1,7 +1,7 @@
 ---
 title: Publish new content in multiple languages
 nav_order: 1
-parent: Tutorial - Getting started with MLP
+parent: Getting started with MLP
 has_children: false
 ---
 # Create and Translate Content Across Languages

@@ -2,7 +2,7 @@
 title: Connecting DeepL Translate
 nav_order: 3
 parent: Configure AutoTranslate
-has_children: false
+has_children: true
 ---
 ## Overview
 
