@@ -1,7 +1,7 @@
 ---
 title: Connecting OpenAI API
-nav_order: 4
-parent: Configure AutoTranslate
+nav_order: 12
+parent: Tutorials
 has_children: false
 ---
 ## Overview

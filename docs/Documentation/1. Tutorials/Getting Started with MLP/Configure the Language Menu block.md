@@ -1,7 +1,7 @@
 ---
 title: Configure the Language Menu block
-nav_order: 1
-parent: Getting started with MLP
+nav_order: 6
+parent: Tutorials
 has_children: false
 ---
 

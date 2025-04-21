@@ -1,7 +1,7 @@
 ---
 title: Activate and Configure MultilingualPress License
 nav_order: 4
-parent: Installation and activation
+parent: Tutorials
 has_children: false
 ---
 # Activate and Configure MultilingualPress License

@@ -1,7 +1,7 @@
 ---
 title: Configure Your WordPress Multisite for MultilingualPress
 nav_order: 2
-parent: Installation and activation
+parent: Tutorials
 has_children: false
 ---
 # Configure Your WordPress Multisite for MultilingualPress

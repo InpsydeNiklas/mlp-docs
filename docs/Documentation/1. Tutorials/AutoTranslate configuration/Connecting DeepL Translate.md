@@ -1,7 +1,7 @@
 ---
 title: Connecting DeepL Translate
-nav_order: 3
-parent: Connecting Amazon Translate
+nav_order: 11
+parent: Tutorials
 has_children: false
 ---
 ## Overview

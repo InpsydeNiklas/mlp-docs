@@ -1,7 +1,7 @@
 ---
 title: Check for Updates
 nav_order: 5
-parent: Installation and activation
+parent: Tutorials
 has_children: false
 ---
 <!-- I think this should move to the installation doc -->

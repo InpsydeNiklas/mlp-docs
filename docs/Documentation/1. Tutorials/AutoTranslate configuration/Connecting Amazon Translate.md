@@ -1,6 +1,6 @@
 ---
 title: Connecting Amazon Translate
-nav_order: 2
+nav_order: 10
 parent: Tutorials
 has_children: false
 ---

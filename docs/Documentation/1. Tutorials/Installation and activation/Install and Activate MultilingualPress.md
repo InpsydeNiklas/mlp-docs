@@ -1,7 +1,7 @@
 ---
 title: Install and Activate MultilingualPress
 nav_order: 3
-parent: Installation and activation
+parent: Tutorials
 has_children: false
 ---
 # Install and Activate MultilingualPress
