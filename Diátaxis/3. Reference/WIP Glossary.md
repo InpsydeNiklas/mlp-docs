@@ -85,7 +85,7 @@ Below are common terms, abbreviations, and concepts referenced throughout the Mu
 ## Quicklinks
 
 **Definition**: A feature in MLP displaying inline language links within content.  
-**Benefit**: Allows rapid navigation between language versions, without needing a separate menu widget.
+**Benefit**: Allows rapid navigation between language versions, without needing a separate menu block/widget.
 
 ---
 

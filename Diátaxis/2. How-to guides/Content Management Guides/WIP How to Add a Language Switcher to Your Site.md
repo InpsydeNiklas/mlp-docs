@@ -1,4 +1,4 @@
-**Purpose**: Learn about the various methods available in MultilingualPress 4 for adding a language switcher or navigation menu to your multilingual WordPress site. This guide provides a brief overview of each option, helping you choose the method that best fits your theme, technical skill level, and customization needs.
+**Purpose**: Learn about the various methods available in MultilingualPress for adding a language switcher or navigation menu to your multilingual WordPress site. This guide provides a brief overview of each option, helping you choose the method that best fits your theme, technical skill level, and customization needs.
 
 ---
 
