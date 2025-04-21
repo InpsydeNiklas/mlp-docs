@@ -1,4 +1,11 @@
-# Create New Language Site (Note: This contenbt will be udated based on the Auto Translate Feature)
+---
+title: Create a new language version of the site
+nav_order: 1
+parent: Tutorial - Getting started with MLP
+has_children: false
+---
+
+# Create New Language Site
 
 **Purpose:** Add a new WordPress site in your multisite network for an additional language, and configure MultilingualPress options for translations.
 

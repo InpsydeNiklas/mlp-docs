@@ -1,5 +1,5 @@
 ---
-title: Installation and activation
+title: Install and Activate MultilingualPress
 nav_order: 3
 parent: Installation and activation
 has_children: false

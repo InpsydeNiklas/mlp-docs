@@ -1,5 +1,5 @@
 ---
-title: Installation and activation
+title: Configure Your WordPress Multisite for MultilingualPress
 nav_order: 2
 parent: Installation and activation
 has_children: false

@@ -1,4 +1,10 @@
-# Configure the Language Menu Block
+---
+title: Configure the Language Menu block
+nav_order: 1
+parent: Tutorial - Getting started with MLP
+has_children: false
+---
+
 
 **Purpose**: Use the **Language Menu** block from MultilingualPress to let visitors switch between different language sites. You can insert it into individual posts/pages or place it site-wide using a Full Site Editing (FSE) theme. This guide covers activation, placement, and special considerations if you create a new site based on another.
 

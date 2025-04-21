@@ -1,3 +1,9 @@
+---
+title: Connecting DeepL Translate
+nav_order: 1
+parent: Tutorial - Configure AutoTranslate
+has_children: false
+---
 ## Overview
 
 The **DeepL Translate** integration within MultilingualPress allows you to use DeepL's highly accurate machine translation services for your website content. DeepL is known for its advanced neural network translation technology and offers translations in over 25 languages, ensuring high-quality, natural-sounding translations.

@@ -1,3 +1,9 @@
+---
+title: Publish new content in multiple languages
+nav_order: 1
+parent: Tutorial - Getting started with MLP
+has_children: false
+---
 # Create and Translate Content Across Languages
 
 **Purpose:** Guide content authors through creating and translating posts (and related taxonomies) across different language sites in your network.

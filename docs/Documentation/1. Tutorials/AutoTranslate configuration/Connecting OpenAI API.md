@@ -1,3 +1,9 @@
+---
+title: Connecting OpenAI API
+nav_order: 1
+parent: Tutorial - Configure AutoTranslate
+has_children: false
+---
 ## Overview
 
 The **OpenAI Translate** integration within MultilingualPress leverages OpenAI’s state-of-the-art GPT-based models to deliver outstanding translations across multiple languages. OpenAI captures context and nuances more effectively than many traditional translation tools, making it an ideal choice for producing natural-sounding and accurate translations. OpenAI’s flexible pricing model, which includes both pay-as-you-go and subscription plans, allows businesses to scale their translation needs as they grow.

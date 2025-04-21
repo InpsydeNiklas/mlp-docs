@@ -1,5 +1,5 @@
 ---
-title: Installation and activation
+title: Check for Updates
 nav_order: 5
 parent: Installation and activation
 has_children: false

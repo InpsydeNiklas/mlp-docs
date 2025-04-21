@@ -1,5 +1,5 @@
 ---
-title: Installation and activation
+title: Activate and Configure MultilingualPress License
 nav_order: 4
 parent: Installation and activation
 has_children: false
