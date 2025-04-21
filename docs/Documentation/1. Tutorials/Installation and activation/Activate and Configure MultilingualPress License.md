@@ -1,3 +1,9 @@
+---
+title: Installation and activation
+nav_order: 4
+parent: Installation and activation
+has_children: false
+---
 # Activate and Configure MultilingualPress License
 
 **Purpose:** Ensure automatic updates and support by activating the plugin license.

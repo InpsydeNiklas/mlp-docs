@@ -1,3 +1,9 @@
+---
+title: Tutorials
+nav_order: 2
+parent: 
+has_children: true
+---
 This section of our documentation contains step-by-step tutorials to help outline what MultilingualPress is capable of while helping you achieve specific aims, such as installing MultilingualPress or setting up your Multisite network.
 
 We hope our tutorials make as few assumptions as possible and are broadly accessible to anyone with an interest in MultilingualPress. They should also be a good place to start learning about MultilingualPress, how it works and what it’s capable of.

@@ -1,3 +1,9 @@
+---
+title: Installation and activation
+nav_order: 3
+parent: Installation and activation
+has_children: false
+---
 # Install and Activate MultilingualPress
 
 **Purpose:** Help users download, install, and activate the plugin across the network.

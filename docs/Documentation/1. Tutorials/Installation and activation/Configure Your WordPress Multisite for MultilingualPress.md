@@ -1,3 +1,9 @@
+---
+title: Installation and activation
+nav_order: 2
+parent: Installation and activation
+has_children: false
+---
 # Configure Your WordPress Multisite for MultilingualPress
 
 **Purpose:** Ensure users have a proper WordPress Multisite environment before installing MultilingualPress.

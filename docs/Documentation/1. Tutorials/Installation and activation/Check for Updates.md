@@ -1,3 +1,9 @@
+---
+title: Installation and activation
+nav_order: 5
+parent: Installation and activation
+has_children: false
+---
 <!-- I think this should move to the installation doc -->
 
 
