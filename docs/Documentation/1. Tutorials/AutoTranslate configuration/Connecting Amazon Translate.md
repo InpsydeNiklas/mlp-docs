@@ -1,8 +1,8 @@
 ---
-title: Installation and activation
+title: Connecting Amazon Translate
 nav_order: 2
 parent: Tutorials
-has_children: false
+has_children: true
 ---
 
 ## Overview
