@@ -1,7 +1,7 @@
 ---
 title: Installation and activation
-nav_order: 1
-parent: Tutorial - Configure AutoTranslate
+nav_order: 2
+parent: Configure AutoTranslate
 has_children: false
 ---
 

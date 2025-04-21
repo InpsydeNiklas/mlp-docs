@@ -1,7 +1,7 @@
 ---
 title: Connecting DeepL Translate
-nav_order: 1
-parent: Tutorial - Configure AutoTranslate
+nav_order: 3
+parent: Configure AutoTranslate
 has_children: false
 ---
 ## Overview

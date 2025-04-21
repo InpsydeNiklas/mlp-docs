@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Configure AutoTranslate
+title: Configure AutoTranslate
 nav_order: 1
 parent: Tutorials
 has_children: true
